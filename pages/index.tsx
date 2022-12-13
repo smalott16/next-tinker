@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import RouteDisply from '../components/RouteDisplay/RouteDisply'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
+        <RouteDisply />
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
